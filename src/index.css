@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap");
+
+html {
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  transition: all 0.05s ease-in-out;}
+
+@-webkit-keyframes toogle {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+
+  25% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  50% {
+    -webkit-transform: rotateX(45deg);
+    transform: rotateX(45deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes toogle {
+  0% {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+
+  25% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  50% {
+    -webkit-transform: rotateX(45deg);
+    transform: rotateX(45deg);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }

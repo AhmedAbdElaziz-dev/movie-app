@@ -1,0 +1,42 @@
+.nav-bar {
+  background-color: white;
+  padding: 2rem 12rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-size: 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #af8a25;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  margin-right: 1rem;
+}
+
+.nav-bar a:hover {
+  letter-spacing: 0.2rem;
+  text-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.363);
+}
+.nav-bar__toggle__icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.nav-bar__toggle__icon:hover i {
+  animation: toogle 1s both;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 1rem;
+  outline: none;
+  border: 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
